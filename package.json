@@ -1,0 +1,26 @@
+{
+  "name":"her-cli",
+  "desc": "A simple cli",
+  "version": "0.0.1",
+  "main": "index.js",
+  "bin":{
+    "her": "bin/her"
+  },
+  "responsity":{
+    "type": "git",
+    "url": "git+https://github.com/sylvialee/her.git"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0"
+  },
+  "homepage":"https://github.com/sylvialee/her",
+  "keywords":["her", "cli", "es6"],
+  "author": "sylvia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sylvialee/her/issues"
+  }
+}
