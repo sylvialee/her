@@ -1,4 +1,5 @@
-const config = require('./templates')
+'use strict'
+const config = require('../templates')
 
 module.exports = () => {
   console.log(config.tpl)

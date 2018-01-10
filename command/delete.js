@@ -1,3 +1,4 @@
+'use strict'
 const co = require('co')
 const prompt = require('co-prompt')
 const chalk = require('chalk')
@@ -16,7 +17,7 @@ module.exports = () => {
       config.tpl[tplName] = undefined
     }
 
-    fs.writeFile(__dirname + '/../templates.json', JSON.stringify(config), 'utf-8', (err) => {
+    fs.writeFile(__dirname + '../templates.json', JSON.stringify(config), 'utf-8', (err) => {
       if(err) console.log(chalk.red(err))
       console.log(chalk.green('Template deleted!'))
       console.log(chalk.grey('The last template is :\n'))

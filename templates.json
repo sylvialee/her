@@ -1,8 +1,1 @@
-{
-  "tpl":{
-    // "basic":{
-    //   "url": "git@github.com:sylvialee/fe-template.git",
-    //   "branch": "master"
-    // }
-  }
-}
+{"tpl":{"basic":{"url":"git@github.com:sylvialee/fe-template.git","branch":"master"}}}

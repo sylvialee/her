@@ -1,3 +1,4 @@
+'use strict'
 const co = require('co');
 const prompt = require('co-prompt');
 const chalk = require('chalk');
@@ -27,7 +28,7 @@ module.exports = () => {
         process.exit();
       }
       console.log(chalk.green('\n Generation completed!'))
-      console.log(`\n cd ${projectName} && nom install \n`)
+      console.log(`\n cd ${projectName} && npm install \n`)
       process.exit()
     })
   })
